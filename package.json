@@ -1,0 +1,25 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe Game",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DsTyM/Tic-Tac-Toe.git"
+  },
+  "author": "DsTyM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DsTyM/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/DsTyM/Tic-Tac-Toe#readme",
+  "devDependencies": {
+    "electron": "^8.1.1"
+  }
+}
