@@ -45,37 +45,42 @@
             position: relative;
         }
 
+        #title {
+            margin: auto;
+            color: red;
+            width: 345px;
+            position: relative;
+        }
+
         h1 {
             font-size: 250%;
         }
 
         #tryagain {
-            width: 170px;
-            height: 40px;
+            margin: auto;
+            width: 195px;
             background-color: #00a600;
-            float: left;
+            position: relative;
             color: white;
-            margin-top: 170px;
-            margin-left: 65px;
             padding: 20px;
             font-size: 200%;
             display: none;
             font-weight: bold;
         }
-
     </style>
 </head>
 <body>
-<h1 style="color: red;">Tic-Tac-Toe Game</h1>
-
-<div id="tryagain">Try Again!!</div>
+<!--<h1 id="title">Tic-Tac-Toe Game</h1>-->
 
 <div id="rep" style="margin: auto; width: 70px;"><h1 id="results" style="color: #f421a5;">Play</h1></div>
+
+<div id="tryagain">Play Again!!</div>
+
+<br><br>
 
 <div id="mainSquare"></div>
 
 <script>
-
     let sqContent = "";
 
     for (let i = 1; i <= 9; i++) {
