@@ -6,10 +6,20 @@
     <meta charset="UTF-8">
     <title>Tic-Tac-Toe</title>
 
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+
     <script src="../lib/jquery.min.js"></script>
 
-    <style type="text/css">
+    <script>
+        if (window.module) module = window.module;
+    </script>
 
+    <style type="text/css">
         body {
             margin: 50px;
             font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -56,7 +66,6 @@
     </style>
 </head>
 <body>
-
 <h1 style="color: red;">Tic-Tac-Toe Game</h1>
 
 <div id="tryagain">Try Again!!</div>
@@ -264,8 +273,6 @@
     $("#tryagain").click(function () {
         location.reload();
     })
-
 </script>
-
 </body>
 </html>
