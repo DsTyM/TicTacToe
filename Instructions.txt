@@ -1,2 +1,10 @@
 To start the application type in console:
 npm start
+
+To package the application first install:
+npm install electron-packager -g
+then run:
+electron-packager . tic-tac-toe
+
+The executable will be on:
+tic-tac-toe-win32-x64/tic-tac-toe.exe

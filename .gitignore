@@ -66,3 +66,6 @@ ts-gen
 # Used to accelerate CI builds
 .depshash
 .depshash-target
+
+# Custom
+tic-tac-toe-win32-x64
